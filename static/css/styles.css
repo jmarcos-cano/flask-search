@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+}
+
+    /* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+    /* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+    /* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h2  {
+    text-align: center;
+}
+box{
+    background-color:#0b7dda;
+    color:white;
+    max-width:400px;
+    margin:auto;
+    padding: 15px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "sans-serif","Segoe UI",Arial;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 50px 100px;
+    background-color: #60f0c0;
+
+}
